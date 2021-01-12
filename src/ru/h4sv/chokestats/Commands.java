@@ -22,7 +22,7 @@ public class Commands implements CommandExecutor {
         Player p = null;
         if (!(sender instanceof Player) && args.length == 0)
         {
-            sender.sendMessage("Петрович, иди  нахуй");
+            sender.sendMessage("Не стоит делать этого из консоли");
             return true;
         }
         if (args.length == 0)
